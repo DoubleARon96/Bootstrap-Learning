@@ -14,18 +14,23 @@
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign Up / Sign In</a></li>
             </ul>
-        <a href="/" class="navbar-brand"></a>
-        <a href="/" class="navbar-brand"></a>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"></a>
+            <a href="/login">Sign In / Sign Up</a>
+        </div>
     </nav>
-    <article class="container">
+    <article class="container mt-3">
         <!-- Callout -->
-        <section class="callout">
+        <section class="callout jumbotron text-center">
             <div class = "row">
                 <div class="col-12">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
                     <p>Sign up today to start receiving the world's best whiskeys every month.
-                    <s>£19.99</s> <strong><mark>one is free!</mark></strong></p>
+                    <s class="d-none d-sm-inline">£19.99</s>
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong><mark>one is free!</mark></strong></p>
                     <button class="btn btn-success btn-lrg">Sign Up!</button>
                 </div>
             </div>
@@ -34,7 +39,7 @@
         <hr>
 
         <!-- Quotes -->
-        <section class="quotes">
+        <section class="quotes my-5">
             <div class="row">
                 <div class="col-12">
                     <h2 class="text-uppercase">Quotes:</h2>
@@ -59,7 +64,7 @@
         <hr>
 
         <!-- Features -->
-        <section class="features">
+        <section class="features my-5">
             <div class="row">
                 <div class="col-12">
                     <h2>Features:</h2>
